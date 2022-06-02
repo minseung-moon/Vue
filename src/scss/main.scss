@@ -1,0 +1,10 @@
+// Default variable overrides
+// 새로운 값으로 대처할 때는 variables 파일 이전에 적용해야 된다
+$primary : #FDC000;
+
+// Required
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
