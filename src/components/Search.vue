@@ -57,10 +57,10 @@ export default {
   },
   methods: {
     async apply() {
-      this.$store.dispatch("movie/searchMovies", {
+      this.$store.dispatch("searchMovies", {
         title: this.title,
         type: this.type,
-        numer: this.number,
+        number: this.number,
         year: this.year,
       });
     },
